@@ -21,7 +21,7 @@ ROS期末專案(根據顏色進行自動導航的差速小車)，需要下載3�
    $git clone https://gitee.com/bingda-robot/bingda_tutorials.git  
    $cd ~/catkin_ws/    
    $catkin_make   
-5. 將waypoints.xml路徑存到"Z:\home\你的使用者名稱\waypoints.xml"，這樣用後續的rosFinalNav.launch才能抓到waypoints  
+5. 將waypoint/waypoints.xml檔案的路徑存到"Z:\home\你的使用者名稱\waypoints.xml"，這樣用後續的rosFinalNav.launch才能抓到waypoints  
 6. 執行根據顏色進行自動導航的差速小車：  
   $ roslaunch myrobot_1100410_description gazebo.launch (用來啟動差速小車及gazebo環境)  
   $ roslaunch myrobot_1100410_description rosFinalNav.launch (用來啟動rviz以及導航相關package，如map_server、amcl...)  
