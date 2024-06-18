@@ -17,7 +17,8 @@ ROS期末專案(根據顏色進行自動導航的差速小車)，需要下載3�
   $./install_for_noetic.sh  
   $cd ~/catkin_ws/    
   $catkin_make  
-4. $cd ~/catkin_ws/src/
+4. bingda_tutorials小車模型下載方式如下：  
+   $cd ~/catkin_ws/src/  
    $git clone https://gitee.com/bingda-robot/bingda_tutorials.git  
    $cd ~/catkin_ws/    
    $catkin_make   
